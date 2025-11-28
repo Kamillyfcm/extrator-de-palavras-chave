@@ -1,17 +1,16 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 
 :root {
     --cor-destaque: linear-gradient(113deg, #ff62d8 0%, #7affa6 44.96%, #ff89f5 100%);
-    background: url('img/Design\ sem\ nome.jpg');
     font-family: Montserrat;
 }
-
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Montserrat;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -19,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px 21px 18px 21px;
-    background: var(background);
+    background: url('img/Design\ sem\ nome.jpg');
     height: 100vh;
     flex-direction: column;
 }
